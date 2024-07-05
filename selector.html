@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Type of Selector</title>
+    <style>
+        *{
+           padding: 0;
+           margin: 0; 
+        }
+        .first{
+            color:brown;
+        }
+        #cat{
+            color:green;
+        }
+        p{
+            color:aqua;
+        }
+        div p{
+            color:brown;
+        }
+        section > p{
+            color:red;
+        }
+        div ~ p{
+            background: yellow;
+        }
+        a:link{
+            color:red;
+            padding:12px;
+            background: black;
+            text-decoration: none;
+        }
+        a:hover{
+            padding:12px;
+            background: tomato;
+            border-radius: 4px;
+            color:white;
+            font-weight:900;
+            text-align: center;
+            text-decoration: none;
+        }
+        article p:first-child{
+            background: tomato;
+        }
+        article p:last-child{
+            background: green;
+        }
+        article p:nth-child(3){
+            background: aqua;
+        }
+        div p::first-letter{
+            font-size: xx-large;
+        }
+        div p::first-line{
+            background: teal;
+        }
+        </style>
+</head>
+<body>
+    <h1 class="first">Simple Selector</h1>
+    <h1 id="cat">Learning CSS</h1>
+    <p>Hello Dear</p>
+    <div>  
+        <p>First Paragraph</p>
+        <p>Second Paragraph</p>
+        <section>
+            <p>Third Paragraph</p>
+        </section>
+    </div>
+    <p>This is paragrah</p>
+    <p>This is paragrah</p>
+<div>
+    <p>My darling</p>
+</div>
+<p>Aptech Osogbo</p>
+<p>Aptech Osogbo</p>
+<p>Aptech Osogbo</p>
+<p>Aptech Osogbo</p> <br> <br><br>
+<a href="#">Click Here</a>  <br><br><br>
+<article>
+    <p>This is my article One</p>
+    <p>This is my article Two</p>
+    <p>This is my article Three</p>
+    <p>This is my article Four</p>
+</article>
+</body>
+</html>

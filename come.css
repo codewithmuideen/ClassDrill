@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding:0;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    box-shadow: 2px 3px 3px lightgray;
+}
+.logo img{
+    width:200px;
+    margin-top: -15%;
+    cursor: pointer;
+}
+.link{
+    margin-right: 3%;
+}
+.link ul li{
+    text-decoration: none;
+    display: inline-block;
+    margin: 40px 20px;
+}
+.link ul li a{
+    text-decoration: none;
+    font-family: tahoma;
+    color:black;
+    font-weight: 600;
+}
+
+
+@media (max-width:320px) {
+    .logo img{
+        width:100px;
+    }
+    .link{
+     display: none;
+    }
+}
+main{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(./bg2.webp);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    margin-top: .2%;
+    text-align: center;
+}
+main h1{
+    padding-top: 6%;
+    color:white;
+    font-family: tahoma;
+    font-size:56px;
+}
+main em{
+    font-size: 26px;
+    font-family: sans-serif;
+    color:white;
+}
+main p{
+    margin: 1% 0%;
+    color:white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

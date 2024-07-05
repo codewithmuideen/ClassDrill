@@ -1,0 +1,41 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background: lightgray;
+}
+h1{
+    text-align: center;
+    font-family: tahoma;
+    font-size:45px;
+    text-transform: capitalize;
+}
+p{
+    text-align: center;
+    font-family:sans-serif;
+    font-style: italic;
+}
+.parent{
+    padding:6%;
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-gap: 36px;
+}
+.child img{
+    width:15%;
+}
+.child{
+    text-align: center;
+    background: white;
+    padding:6%;
+    box-shadow: 2px 2px 2px black;
+}
+.child h5{
+    margin:8% 0%;
+}
+.child p{
+    line-height: 22px;
+    margin-bottom: 6%;
+}

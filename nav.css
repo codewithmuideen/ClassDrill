@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0
+}
+header{
+    display: flex;
+    background: lightseagreen;
+    height: 12vh;
+}
+ .logo{
+    flex:1;
+}
+ .nav{
+    flex:2;
+}
+.logo img{
+    width:40%;
+    margin-top: -10%;
+    margin-left: 26%;
+}
+.nav ul li{
+    display: inline-block;
+    margin: 42px;
+} 
+.nav ul li a{
+    color:black;
+    font-family: tahoma;
+    text-decoration: none;
+}
+.nav ul li a:hover{
+    background: #FA586D;
+    color:white;
+    padding:8px;
+    border:4px;
+}

@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+}
+nav{
+    display: flex;
+    /* justify-content: space-between; */
+    padding:1% 13%;
+    box-shadow: 2px 3px 3px lightgray;
+}
+.link{
+    margin-left: 4%;
+    margin-top: -2.1%;
+}
+.link ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 78px;
+    margin-top: 2%;
+}
+.link ul li a{
+    text-decoration: none;
+    font-family: tahoma;
+    color: black;
+}
+input{
+    width:120%;
+    padding:10px;
+    outline:none;
+    border-radius: 2px;
+}
+button{
+    width:100%;
+    border:none;
+    outline:none;
+    padding:12px;
+    background: rgb(5, 180, 234);
+    color:white;
+    font-weight: 900;
+    border-radius: 6px;
+}

@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+aside{
+    width:200px;
+    background: tomato;
+    height:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    color:white;
+}
+ul li{
+    margin: 25px 0;
+}
+aside h2{
+    background: rgb(94, 16, 2);
+    padding:16px;
+    font-size: 17px;
+    font-family:tahoma;
+}
+ul li a {
+    color:white;
+    text-decoration: none;
+    font-family:tahoma;
+    padding: 20px;
+}
+ul li a:hover{
+    color:black;
+    margin-left: 20px;
+}
+main{
+    padding: 0 60px 0 250px;
+    text-align: justify;
+    padding-top:40px;
+    background: lightblue;
+    height:100vh;
+}
+main h2{
+    margin:2% 0;
+}
